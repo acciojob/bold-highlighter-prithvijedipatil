@@ -4,15 +4,17 @@
 function highlight() {
     //Write your code here
 const bold = document.getElementsByTagName("strong");
-	bold.style.color="green";
+	for(let i=0;i<bold.length;i++){
+	bold[i].style.color="green";
+	}
 
 }
 
 
 function return_normal() {
     //Write your code here
-const bold = document.getElementsByTagName("strong");
-	bold.style.color="black";
-
+for(let i=0;i<bold.length;i++){
+	bold[i].style.color="black";
+	}
     
 }
